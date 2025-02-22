@@ -16,7 +16,7 @@ env USERPROFILE: C:\Users\meena
 env WINDIR: C:\WINDOWS
 env LANG: en_US.UTF-8
 env PATH: D:\Deployment\section-06-model-serving-api\house-prices-api\.tox\test_app\Scripts;C:\Program Files\PowerShell\7;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\meena\AppData\Local\Programs\Python\Python38;c:\users\meena\appdata\local\programs\python\python38\lib\site-packages;C:\Users\meena\AppData\Local\Programs\Python\Python38\Scripts;C:\Program Files\PowerShell\7\;C:\Users\meena\scoop\apps\railway\3.21.0;C:\Users\meena\scoop\shims;C:\Users\meena\AppData\Local\Microsoft\WindowsApps;C:\Users\meena\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\meena\AppData\Local\Programs\Ollama;;c:\Users\meena\.vscode\extensions\ms-python.debugpy-2025.0.1-win32-x64\bundled\scripts\noConfigScripts
-env PYTHONHASHSEED: 730
+env PYTHONHASHSEED: 350
 env PIP_DISABLE_PIP_VERSION_CHECK: 1
 env PYTHONIOENCODING: utf-8
 env PYTHONPATH: .
@@ -26,22 +26,23 @@ env TOX_ENV_DIR: D:\Deployment\section-06-model-serving-api\house-prices-api\.to
 env VIRTUAL_ENV: D:\Deployment\section-06-model-serving-api\house-prices-api\.tox\test_app
 env COLUMNS: 152
 env LINES: 12
-metadata pid: 35832
+metadata pid: 2064
 cwd: D:\Deployment\section-06-model-serving-api\house-prices-api
 allow: D:\Deployment\section-06-model-serving-api\house-prices-api\.tox\test_app\Scripts\*
 cmd: python app/main.py
 exit_code: 3221225786
+INFO:     ::1:53408 - "GET / HTTP/1.1" 200 OK
 
 standard error:
-2025-02-22 19:49:17.613 | WARNING  | __main__:<module>:55 - Running in development mode. Do not run like this in production.
-INFO:     Started server process [8800]
+2025-02-22 20:47:58.185 | WARNING  | __main__:<module>:55 - Running in development mode. Do not run like this in production.
+INFO:     Started server process [24644]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
 INFO:     Uvicorn running on http://localhost:8001 (Press CTRL+C to quit)
 INFO:     Shutting down
 INFO:     Waiting for application shutdown.
 INFO:     Application shutdown complete.
-INFO:     Finished server process [8800]
+INFO:     Finished server process [24644]
 Traceback (most recent call last):
   File "app/main.py", line 58, in <module>
     uvicorn.run(app, host="localhost", port=8001, log_level="debug")
