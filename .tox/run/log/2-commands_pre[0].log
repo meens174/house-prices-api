@@ -1,0 +1,36 @@
+name: run
+run_id: commands_pre[0]
+env APPDATA: C:\Users\meena\AppData\Roaming
+env COMSPEC: C:\WINDOWS\system32\cmd.exe
+env NUMBER_OF_PROCESSORS: 8
+env PATHEXT: .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+env PROCESSOR_ARCHITECTURE: AMD64
+env PROGRAMDATA: C:\ProgramData
+env PROGRAMFILES: C:\Program Files
+env PROGRAMFILES(X86): C:\Program Files (x86)
+env SYSTEMDRIVE: C:
+env SYSTEMROOT: C:\WINDOWS
+env TEMP: C:\Users\meena\AppData\Local\Temp
+env TMP: C:\Users\meena\AppData\Local\Temp
+env USERPROFILE: C:\Users\meena
+env WINDIR: C:\WINDOWS
+env LANG: en_US.UTF-8
+env PATH: D:\Deployment\section-06-model-serving-api\house-prices-api\.tox\test_app\Scripts;C:\Program Files\PowerShell\7;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\meena\AppData\Local\Programs\Python\Python38;c:\users\meena\appdata\local\programs\python\python38\lib\site-packages;C:\Users\meena\AppData\Local\Programs\Python\Python38\Scripts;C:\Program Files\PowerShell\7\;C:\Users\meena\scoop\apps\railway\3.21.0;C:\Users\meena\scoop\shims;C:\Users\meena\AppData\Local\Microsoft\WindowsApps;C:\Users\meena\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\meena\AppData\Local\Programs\Ollama;;c:\Users\meena\.vscode\extensions\ms-python.debugpy-2025.0.1-win32-x64\bundled\scripts\noConfigScripts
+env PYTHONHASHSEED: 888
+env PIP_DISABLE_PIP_VERSION_CHECK: 1
+env PYTHONIOENCODING: utf-8
+env PYTHONPATH: .
+env TOX_ENV_NAME: run
+env TOX_WORK_DIR: D:\Deployment\section-06-model-serving-api\house-prices-api\.tox
+env TOX_ENV_DIR: D:\Deployment\section-06-model-serving-api\house-prices-api\.tox\test_app
+env VIRTUAL_ENV: D:\Deployment\section-06-model-serving-api\house-prices-api\.tox\test_app
+env COLUMNS: 136
+env LINES: 12
+metadata pid: 34256
+cwd: D:\Deployment\section-06-model-serving-api\house-prices-api
+allow: D:\Deployment\section-06-model-serving-api\house-prices-api\.tox\test_app\Scripts\*
+cmd: pip install --upgrade pip setuptools<66 wheel
+exit_code: 0
+Requirement already satisfied: pip in d:\deployment\section-06-model-serving-api\house-prices-api\.tox\test_app\lib\site-packages (25.0.1)
+Requirement already satisfied: setuptools<66 in d:\deployment\section-06-model-serving-api\house-prices-api\.tox\test_app\lib\site-packages (65.7.0)
+Requirement already satisfied: wheel in d:\deployment\section-06-model-serving-api\house-prices-api\.tox\test_app\lib\site-packages (0.45.1)
